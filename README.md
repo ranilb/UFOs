@@ -9,6 +9,7 @@ Data source: data.js
 
 Software: JavaScript, HTML & CSS and Bootstrap
 
+
 ## UFO Analysis Results
 The main goal of this analysis was to extract data from a JavaScript file and show them in webpage using a HTML table. Furthermore, improve the webpage 
 so that users can filter the data according to their requirements.  The data was stored as objects in JavaScript object. The following image shows an example of 
@@ -18,9 +19,10 @@ one object in the data file.
 
 The JavaScript object in the preceding image is very similar to a dictionary in python. Keys are "datetime", "city', "state', "country", "shape", "durationMinutes" and "comments". First, data from the JavaScript file was converted to a HTML table and displayed on the web browser. The image is shown below.
 
-  ![Screen Shot 2022-11-28 at 5 33 24 PM](https://user-images.githubusercontent.com/112113327/204395092-c26790c6-97de-4eb4-bea2-423f1a8b6167.png)
+  ![Screen Shot 2022-11-28 at 9 11 23 PM](https://user-images.githubusercontent.com/112113327/204421861-a84c7615-4415-4761-b4b6-105204325207.png)
 
-Seven observations of UFOs are displayed in the preceding image and the fourth row represents the object shown in the previous image. It can be observed that the observations have different values other than the country. 
+
+Six observations of UFOs are displayed in the preceding image and the fourth row represents the object shown in the previous image. It can be observed that the observations have different values other than the country. 
 Therefore, the next step is to include filters so users can change their search criteria. To achieve that, five different search boxes were included into the webpage and shown in the following image.
 
 
@@ -33,10 +35,16 @@ in the Oregon state (or), it can be obtained from the webpage as shown below.
 
 Also, users can use more than one filter at the same time. For example, to see the observations in Massachusetts (ma) with the circular shape, following filters can be used. 
 
+
   ![Screen Shot 2022-11-28 at 8 53 44 PM](https://user-images.githubusercontent.com/112113327/204419138-d999a471-256a-4c51-a23f-bc2e66397517.png)
 
 According to the given search criteria, the only available observation is shown in the preceding image.
 
 
-## PyBer Analysis Summary
-According to the information extracted from the two data sets, there are more drivers in urban cities than in suburban and rural cities. This leads to the low average fare for the drivers in urban cities than the drivers in suburban and rural cites. On the other hand, the riders in urban cities get better rates due to higher number of drivers. Also, this may be due to short distances, but there is no data to compare the distances. In the graph of the "total fare by city type", the total fare for urban and suburban cities are lower at the begining of the uear. This may be due to seasonal effecs. Finally, the suburban cities are better for riders compared to the riders in rural cities and also better for drivers compated to the drivers in urban cities.
+
+## UFOs Summary
+Even though this web browser is very helpful for users to filter their information, one of the drawbacks is that the user has to inspect the options for each filter if the user doesn’t know what exactly he/she is looking for. In this case, users must inspect the default table to see what the available options for filters such are as country, state and shape etc. This difficulty can be removed by introducing a dropdown menu for each filter. This would be a great inclusion to improve the value of this web browser.  
+
+Another diffulty in this web browser is to clear the search criteria. Users have to refresh the page to clear the data. However, it would be very convenient if a clear button is included.
+
+One last thing to improve this search would be adding filters for column headers as well. In that way, users can pick the columns they are interested. 
