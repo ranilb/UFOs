@@ -1,38 +1,41 @@
 # UFOs
 
 ## Overview of the UFO
-This analysis was performed on Unidentified Flying Objects (UFOs) data to visualize information. The data was stored in a JavaScript arry. The analysis was 
-extended to filter data according to the use-input such as city, state, counry and the shape of the UFOs.
+This analysis was performed on Unidentified Flying Objects (UFOs) data to visualize information. The data was stored in a JavaScript array. The analysis was 
+extended to filter data according to the use-input such as city, state, country and the shape of the UFOs.
 
 ### Resources
 Data source: data.js
 
 Software: JavaScript, HTML & CSS and Bootstrap
 
-## UF Analysis Results
-The main goal of this analysis was to extract data from a JavaScript file and show them in webpage using a HTML table. Further more, imporve the webpage 
-so that users can fillter the data according to their requirements.  The data was stored as objects in JavaScript object. The following image shows an example of 
+## UFO Analysis Results
+The main goal of this analysis was to extract data from a JavaScript file and show them in webpage using a HTML table. Furthermore, improve the webpage 
+so that users can filter the data according to their requirements.  The data was stored as objects in JavaScript object. The following image shows an example of 
 one object in the data file.
 
   <img width="475" alt="Screen Shot 2022-11-28 at 5 07 28 PM" src="https://user-images.githubusercontent.com/112113327/204391305-5b7735de-5861-4868-9036-3018bf132044.png">
 
-The JaveScript object in the preceding image is very similar to a dictionary in python. Keys are "datetime", "city', "state', "country", "shape", "durationMinutes"
-and "comments". First, data from the JavaScript file was converted to a HTML table and displayed on the webbrowser. The image is shown bellow.
+The JavaScript object in the preceding image is very similar to a dictionary in python. Keys are "datetime", "city', "state', "country", "shape", "durationMinutes" and "comments". First, data from the JavaScript file was converted to a HTML table and displayed on the web browser. The image is shown below.
 
   ![Screen Shot 2022-11-28 at 5 33 24 PM](https://user-images.githubusercontent.com/112113327/204395092-c26790c6-97de-4eb4-bea2-423f1a8b6167.png)
 
-Seven observations of UFOs are displayed in the preceding image. It can be observed that the observations have different values other than the country. 
-Therefore, the next step is to include filters so users can change their search criteria.
-
-### Average Fare per Ride and the Average Fare per Driver
+Seven observations of UFOs are displayed in the preceding image and the fourth row represents the object shown in the previous image. It can be observed that the observations have different values other than the country. 
+Therefore, the next step is to include filters so users can change their search criteria. To achieve that, five different search boxes were included into the webpage and shown in the following image.
 
 
-### Weekly Total Fare for each City Type
-As the second step, the total fare for each city type was considered. Then, the "resample" function was used to determine the weekly fare for each city type. The weekly fares from January, 2019 to April 2019 were considered for each city type and plot the following line graph to visualize the information.
+  ![Screen Shot 2022-11-28 at 5 47 38 PM](https://user-images.githubusercontent.com/112113327/204397126-025382c3-2c1e-4a3a-9e3a-222feea2c5ac.png)
 
-  ![PyBer_fare_summary](https://user-images.githubusercontent.com/112113327/195691444-08c531e8-3523-4cd8-91d2-e48b165c12dc.png)
+With the help of these search boxes, users can now filter the results according to their interests. For example, if a user wishes to find the observations 
+in the Oregon state (or), it can be obtained from the webpage as shown below.
 
-From the preceding graph, it can be observed that the weekly fare in urban cities are very high compared to the rural cities. The total fares in suburban cities are higher than rural cities, but less than the urban cities. Another interesting to see here is that the total fares in urban and suburban cities decreased in January, but it increased in rural cities.
+  ![Screen Shot 2022-11-28 at 5 54 52 PM](https://user-images.githubusercontent.com/112113327/204398062-3c66fbfd-1c43-4931-bc1e-549ad34727b7.png)
+
+Also, users can use more than one filter at the same time. For example, to see the observations in Massachusetts (ma) with the circular shape, following filters can be used. 
+
+  ![Screen Shot 2022-11-28 at 8 53 44 PM](https://user-images.githubusercontent.com/112113327/204419138-d999a471-256a-4c51-a23f-bc2e66397517.png)
+
+According to the given search criteria, the only available observation is shown in the preceding image.
 
 
 ## PyBer Analysis Summary
